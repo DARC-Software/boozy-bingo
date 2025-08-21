@@ -1,0 +1,7 @@
+{
+  "name": "boozy-bingo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
