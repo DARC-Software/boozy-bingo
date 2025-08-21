@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'boozy-bingo',
+  appId: 'com.darcsoftware.boozybingo',
+  appName: 'Boozy Bingo',
   webDir: 'www'
 };
 
