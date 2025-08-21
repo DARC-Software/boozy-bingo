@@ -1,1 +1,21 @@
+ion-tab-bar {
+    --background: rgba(58, 52, 99, 1);
+    --color: white;
+    height: 80px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 
+ion-tab-button ion-icon {
+    padding: 6px;
+    margin-bottom: 6px;
+}
+
+ion-tab-button.tab-selected {
+    color: white;
+}
+
+ion-tab-button.tab-selected ion-icon {
+    background: linear-gradient(90deg,rgba(51, 175, 243, 1) 0%, rgba(212, 110, 247, 1) 100%);
+    border-radius: 50%;
+}

@@ -12,14 +12,19 @@ export const routes: Routes = [
           import('../events-tab/events.page').then((m) => m.EventsPage),
       },
       {
-        path: 'tab2',
+        path: 'photos',
         loadComponent: () =>
-          import('../tab2/tab2.page').then((m) => m.Tab2Page),
+          import('../photos-tab/photos.page').then((m) => m.PhotosPage),
       },
       {
-        path: 'tab3',
+        path: 'bingo',
         loadComponent: () =>
-          import('../tab3/tab3.page').then((m) => m.Tab3Page),
+          import('../bingo-tab/bingo.page').then((m) => m.BingoPage),
+      },
+      {
+        path: 'profile',
+        loadComponent: () =>
+          import('../profile-tab/profile.page').then((m) => m.ProfilePage),
       },
       {
         path: '',

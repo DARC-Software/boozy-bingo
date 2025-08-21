@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/standalone';
 
 @Component({
-  selector: 'app-events',
-  templateUrl: 'events.page.html',
-  styleUrls: ['events.page.scss'],
+  selector: 'app-bingo',
+  templateUrl: 'bingo.page.html',
+  styleUrls: ['bingo.page.scss'],
   imports: [IonHeader, IonToolbar, IonTitle, IonContent],
 })
-export class EventsPage {
+export class BingoPage {
   constructor() {}
 }
