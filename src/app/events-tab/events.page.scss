@@ -1,0 +1,57 @@
+ion-toolbar {
+    --background: #1C1930;
+    border-width: 0;
+    box-shadow: none;
+
+    img {
+        padding: 1.2rem 1.2rem 0 1.2rem;
+    }
+}
+
+ion-content {
+    --ion-font-family: Urbanist Medium;
+
+    h1 {
+        font-size: 24px;
+        font-family: Vina Sans;
+        padding-left: 1.2rem;
+        letter-spacing: 4px;
+        color: white;
+    }
+}
+
+// .first {
+//     background: url('/assets/neon.jpg') center;
+// }
+
+ion-card {
+    height: 400px;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    
+    ion-card-header {
+        height: 200px;
+    }
+
+    ion-card-content {
+        background: rgba($color: #3A3463, $alpha: 0.9);
+        height: 100%;
+        padding: 0.8rem;
+        color: white;
+
+        h1 {
+            font-size: 16px;
+            font-family: Urbanist Extra Bold;
+            padding: 0 0 0.5rem 0;
+        }
+
+        h2 {
+            font-size: 14px;
+            padding: 0rem 0rem 0.5rem 0rem;
+        }
+
+        p {
+            padding: 0.5rem 0rem;
+        }
+    }
+}

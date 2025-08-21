@@ -1,5 +1,13 @@
+@import './fonts.scss';
+
 :root {
   --ion-background-color: #1C1930;
+}
+
+ion-toolbar {
+    --background: #1C1930;
+    border-width: 0;
+    box-shadow: none;
 }
 
 ion-content {

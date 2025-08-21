@@ -1,10 +1,43 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Events
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar class="no-border"><img src="/assets/boozy_transparent.png" alt="Logo" /></ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
+    <h1>UPCOMING EVENTS</h1>
+    <ion-card [ngStyle]="{'background': events[0].background}">
+        <ion-card-header>
+        </ion-card-header>
+        <ion-card-content>
+            <h1>Boozy Bingo: Unleashed Camden</h1>
+            <h2>August 7, 2025 @ 8pm</h2>
+            <p>258 Haddock Rd Kingsland, GA 31548</p>
+            <p>Prizes: PS4, Blackstone Grill, Vitamix Blender, etc.</p>
+            <p>Music: Funk and Punk</p>
+            
+        </ion-card-content>
+    </ion-card>
+    <ion-card [ngStyle]="{'background': events[1].background}">
+        <ion-card-header>
+        </ion-card-header>
+        <ion-card-content>
+            <h1>Krazy Karaoke: Lane 21 Lounge</h1>
+            <h2>August 10, 2025 @ 8pm</h2>
+            <p>850822 Hwy 17 Yulee, FL 32097</p>
+            <p>Prizes: PS4, Blackstone Grill, Vitamix Blender, etc.</p>
+            <p>Music: R&B Mix</p>
+            
+        </ion-card-content>
+    </ion-card>
+    <ion-card [ngStyle]="{'background': events[2].background}">
+        <ion-card-header>
+        </ion-card-header>
+        <ion-card-content>
+            <h1>Tipsy Trivia: Okane's</h1>
+            <h2>August 15, 2025 @ 8pm</h2>
+            <p>463711 State Rd 200, FL 32097</p>
+            <p>Prizes: PS4, Blackstone Grill, Vitamix Blender, etc.</p>
+            <p>Music: Early 2000's</p>
+            
+        </ion-card-content>
+    </ion-card>
 </ion-content>
